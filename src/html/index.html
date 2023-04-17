@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Slick-slider</title>
+  <title>CodeQuest</title>
   <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
   @@include('chunk/header.html')
-  <h1>Test</h1>
+  <h1>Главная </h1>
+  <p>Hello! All is working-end</p>
+  @@loop('chunk/news-item.html','../../data/news.json')
   @@include('chunk/footer.html')
   <script src="../js/main.js"></script>
 </body>
