@@ -1,0 +1,24 @@
+p {
+  text-transform: uppercase;
+}
+.news {
+  color: #0f0;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 22px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 1.5;
+  background-color: #ccc;
+}
+.title {
+  color: #00f;
+  text-align: center;
+}
+p {
+  text-align: center;
+  color: #f00;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJhc2UuY3NzIiwibmV3cy5jc3MiLCJzdHlsZS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDQSx5QkFBQTtBQUNBO0FDRkE7RUFDQSxXQUFBO0FBQ0E7QUNGQTtFQUNBLHNCQUFBO0FBQ0E7QUFDQTtFQUNBLGVBQUE7RUFDQSwyREFBQTtFQUNBLGdCQUFBO0VBQ0Esc0JBQUE7QUFDQTtBQUNBO0VBQ0EsV0FBQTtFQUNBLGtCQUFBO0FBQ0E7QUFDQTtFQUNBLGtCQUFBO0VBQ0EsV0FBQTtBQUNBIiwiZmlsZSI6Im1haW4uY3NzIiwic291cmNlc0NvbnRlbnQiOlsicCB7XHJcbiAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcclxufSIsIi5uZXdzIHtcclxuICBjb2xvcjogIzBmMDtcclxufSIsIioge1xyXG4gIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcbn1cclxuYm9keSB7XHJcbiAgZm9udC1zaXplOiAyMnB4O1xyXG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgXCJIZWx2ZXRpY2EgTmV1ZVwiLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgbGluZS1oZWlnaHQ6IDEuNTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjY2NjO1xyXG59XHJcbi50aXRsZSB7XHJcbiAgY29sb3I6ICMwMGY7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcbnAge1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICBjb2xvcjogI2YwMDtcclxufSJdfQ== */
