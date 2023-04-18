@@ -5,7 +5,10 @@ body {
   font-size: 22px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   line-height: 1.5;
-  background-color: #ccc;
+  background-image: url('../images/cappa.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 $myColor: #f00;
 $secondColor: #00f;

@@ -5,7 +5,7 @@ const app = require('../config/app.js');
 // Плагины
 const plumber = require('gulp-plumber');
 const notify = require('gulp-notify');
-const uglify = require('gulp-uglify-es').default;
+// const uglify = require('gulp-uglify-es').default;
 const webpack = require('webpack-stream');
 
 
@@ -19,7 +19,6 @@ const js = () => {
       }))
     }))
     .pipe(webpack(app.webpack))
-    .pipe(uglify())
     .pipe(dest(path.js.dest))
 }
 module.exports = js;

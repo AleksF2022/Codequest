@@ -10,6 +10,7 @@ const autoprefixer = require('gulp-autoprefixer');
 const csso   = require('gulp-csso');
 const rename = require('gulp-rename');
 const size = require('gulp-size');
+const webpCss = require('gulp-webp-css');
 
 // Обработка Css
 const css = () => {
@@ -21,6 +22,7 @@ const css = () => {
       }))
     }))
     .pipe(concat('main.css'))
+    .pipe(webpCss())
     .pipe(autoprefixer({overrideBrowsersList: ['last 10 version']}))
     .pipe(size({title: "main.css"}))
     .pipe(dest(path.css.dest, {sourcemaps: true}))

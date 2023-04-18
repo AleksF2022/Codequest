@@ -8,8 +8,9 @@ const notify = require('gulp-notify');
 const autoprefixer = require('gulp-autoprefixer');
 const csso   = require('gulp-csso');
 const rename = require('gulp-rename');
-const size = require('gulp-size');
 const sass = require('gulp-sass')(require('sass'));
+const size = require('gulp-size');
+const webpCss = require('gulp-webp-css');
 
 // Обработка SCSS
 const scss = () => {
@@ -21,6 +22,7 @@ const scss = () => {
       }))
     }))
     .pipe(sass())
+    .pipe(webpCss())
     .pipe(autoprefixer({overrideBrowsersList: ['last 10 version']}))
     .pipe(size({title: "main.css"}))
     .pipe(dest(path.scss.dest, {sourcemaps: true}))
