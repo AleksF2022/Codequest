@@ -1,0 +1,30 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 22px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 1.5;
+  background-color: #ccc;
+}
+
+.danger {
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid blue;
+  background-color: green;
+}
+
+.title {
+  color: #00f;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: #f00;
+  font-size: 24px;
+}/*# sourceMappingURL=main.css.map */

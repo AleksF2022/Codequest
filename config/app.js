@@ -7,5 +7,8 @@ module.exports = {
     data: {
       news: require('../data/news.json')
     }
+  },
+  webpack: {
+    mode: "development"
   }
 }
